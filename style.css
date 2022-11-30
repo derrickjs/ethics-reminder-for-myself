@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    margin:0;
+	padding:0;
+	background-color: #A7C957 ;
+	min-height: 400px;
+
+
+}
+
+header{
+    border-bottom: 2px black solid;
+    text-align: center;
+    background-color: #386641;
+    color: white;
+}
+
+h1{
+    font-size: 5rem;
+    font-style: italic;
+
+}
+
+main{
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+h2{
+    text-decoration: underline;
+    margin:2% auto;
+    color:#386641;
+    font-size: 2.5rem;
+    width:60%;
+    
+}
+
+p{
+    width:85%;
+    margin:0 auto;
+    font-size: 2rem;
+    padding-bottom: 5%;
+    font-family: Bradley Hand, cursive;
+}
+
+
+.box{
+    border:dotted 10px #BC4749;
+    width:60%;
+    margin:5% auto;
+    background-color: #F2E8CF;
+}
+.box1{
+    border: solid 4px red;
+    width:60%;
+    margin:5% auto;
+    
+    
+}
+
+
+
+.video{
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9; /* remember the stuggle*/
+   
+  }
+
+footer{
+    display:flex;
+    
+    
+	background-color: #386641;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 10vh;
+	width: 100%;
+	border-top: 2px solid black;
+	justify-content:center;
+	align-items:center;
+   
+	
+	 
+	
+	}
+
+
+    h2.foot{
+        font-size:2rem;
+        text-decoration: none;
+        color:white;
+        text-align: center;
+        
+
+    }
+
+    @media only screen and (max-width: 768px) {
+		/* For mobile phones: */
+
+        
+
+        .box{
+            width:95%
+        }
+
+        .box1{
+            width:95%
+        }
+
+
+
+       
+		
+		header{
+			display: block;
+			
+
+
+		}
+        main{
+            margin-bottom: 20%;
+        }
+
+		
+		footer{
+			height:15vmax;
+            text-align: center;
+            
+            
+		}
+
+    }
